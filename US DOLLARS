@@ -1,0 +1,42 @@
+#include <iostream>
+using namespace std;
+int main() {
+
+double num,eur,gbp,rupee,aus,can,franc,yen;
+
+cout<< "\t \t \t USD CONVERTER" << endl;
+cout << endl;
+
+cout<<"Please enter amount in USD ";
+cin>> num;
+
+cout<< endl;
+
+eur=num*0.860706 ;
+cout << num << "USD= " << eur<< "EUROS" <<endl;
+
+cout<< endl;
+
+gbp = num *0.734899	;
+cout << num << "USD= " << gbp<< "BRITISH POUNDS" << endl;
+cout<< endl;
+
+rupee = num*74.542990	;
+cout << num << "USD= " << rupee<< "INDIAN RUPEES" <<endl;
+cout<< endl;
+aus=num*1.373043 ;
+cout << num << "USD= " << aus<< "AUSTRALIAN DOLLARS" <<endl;
+cout<< endl;
+can=num*1.258385 ;
+cout << num << "USD= " << can<< "CANADIAN DOLLARS" <<endl;
+cout<< endl;
+franc=num*0.924747	;
+cout << num << "USD= " << franc<< "SWISS FRANCS" <<endl;
+cout<< endl;
+yen=num*110.942647	;
+cout << num << "USD= " << yen<< "JAPANESE YEN" <<endl;
+cout<< endl;
+cout<< endl;
+cout << "THANKS FOR USING MY CONVERTER" << endl;
+return 0;
+}
